@@ -9,7 +9,7 @@ using std::cout;
 
 int main(){
 
-	int test[6] = {34, 65, 62,62,42,6};
+	int test[6] = {80,34, 65, 62,62,42,6};
 
 	quick_sort_inplace(test, 0, 6);
 	quick_sort(test, 0, 6);
